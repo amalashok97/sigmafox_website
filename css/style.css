@@ -23,6 +23,7 @@
 -------------------------------------------------------------------*/
 
 body {
+    background: rgba(204,204,204);
     color: #666666;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
@@ -363,7 +364,7 @@ a.navbar-brand {
 .top-header .navbar .navbar-collapse ul li a:hover,
 .top-header .navbar .navbar-collapse ul li a:focus {
     background: transparent;
-    color: #ffa500;
+    color: #ff5101;
 }
 
 .search_icon.nav-link img {
@@ -384,12 +385,12 @@ a.navbar-brand {
     animation-fill-mode: both;
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
-    background: #fff;
+    background:rgb(216, 211, 211,0.9);
     z-index: 20;
 }
 
 .navbar-toggler {
-    border: 2px solid #ffa500;
+    border: 2px solid #ff5101;
     border-radius: 0;
     margin: 15px 15px;
     padding: 8px 8px;
@@ -400,7 +401,7 @@ a.navbar-brand {
 }
 
 .navbar-toggler span {
-    background: #ffa500;
+    background: #ff5101;
     display: block;
     width: 22px;
     height: 2px;
@@ -421,11 +422,11 @@ a.navbar-brand {
 }
 
 .navbar-toggler:hover {
-    border: 2px solid #ffa500;
+    border: 2px solid #ff5101;
 }
 
 .navbar-toggler:hover span {
-    background: #ffa500;
+    background: #ff5101;
 }
 
 
@@ -476,7 +477,7 @@ a.navbar-brand {
 }
 
 .theme_color {
-    color: #ffa500;
+    color: #ff5101;
 }
 
 
@@ -573,7 +574,7 @@ a.navbar-brand {
 }
 
 .pogoSlider-nav-btn--selected {
-    background: #ffa500 !important;
+    background: #ff5101 !important;
 }
 
 .pogoSlider--navBottom .pogoSlider-nav {
@@ -605,7 +606,7 @@ a.navbar-brand {
 }
 
 .slide_text p {
-    color: #ffa500;
+    color: #ff5101;
     font-size: 20px;
     font-weight: 300;
     padding-top: 0;
@@ -616,7 +617,7 @@ a.navbar-brand {
 .contact_bt {
     width: 180px;
     height: 50px;
-    background: #ffa500;
+    background: #ff5101;
     color: #fff;
     float: left;
     line-height: 50px;
@@ -683,7 +684,7 @@ a.navbar-brand {
 .title-box h2 {
     font-size: 75px;
     font-family: 'Great Vibes', cursive;
-    color: #ffa500;
+    color: #ff5101;
     font-weight: 400;
     padding: 0;
 }
@@ -742,7 +743,7 @@ a.navbar-brand {
 
 .about-main-info h2 {
     font-size: 45px;
-    color: #ffa500;
+    color: #ff5101;
     font-weight: 600;
 }
 
@@ -750,7 +751,7 @@ a.navbar-brand {
     border-radius: 2px;
     transition: .2s;
     padding: 10px 25px;
-    background: #ffa500;
+    background: #ff5101;
     color: #ffffff;
     font-weight: 300;
     font-size: 15px;
@@ -795,7 +796,7 @@ a.navbar-brand {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #ffa500;
+    background: #ff5101;
     border-radius: 100%;
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -825,7 +826,7 @@ a.hvr-radial-out:focus {
 .service_blog {
     float: left;
     width: 100%;
-    border: solid #555 1px;
+    border: solid rgba(255, 81, 1, 0.7) 1px;
     padding: 30px;
     margin-top: 30px;
     transition: ease all 0.2s;
@@ -833,7 +834,7 @@ a.hvr-radial-out:focus {
 
 .service_blog:hover,
 .service_blog:focus {
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 0 30px 0 rgba(255, 81, 1, .2);
     transform: scale(1.02);
 }
 
@@ -904,7 +905,7 @@ figure.effect-service h2 {
 }
 
 figure.effect-service h2 {
-    background: #ffa500;
+    background: #ff5101;
     padding: 13px;
     width: 94%;
     height: 58px;
@@ -956,7 +957,7 @@ figure.effect-service:hover p {
 }
 
 figure.effect-service:hover {
-    border: 8px solid #ffa500;
+    border: 8px solid #ff5101;
 }
 
 
@@ -1031,12 +1032,12 @@ figure.effect-service:hover {
 }
 
 .gallery-box ul li a:hover {
-    border: 4px solid #ffa500;
+    border: 4px solid #ff5101;
 }
 
 .gallery-box ul li a .overlay {
     background: #fff;
-    color: #ffa500;
+    color: #ff5101;
 }
 
 
@@ -1215,7 +1216,7 @@ figure.effect-service:hover {
 /*------------------------------------------------------------------ counter ----------------------------------------------------------------*/
 
 h2.timer.count-title.count-number {
-    color: #ffa500;
+    color: #ff5101;
     font-size: 60px;
     font-weight: 600;
     margin: 0;
@@ -1224,7 +1225,7 @@ h2.timer.count-title.count-number {
 }
 
 p.count-text {
-    color: #ffa500;
+    color: #ff5101;
     font-size: 22px;
     font-weight: 600;
     line-height: 20px;
@@ -1237,11 +1238,11 @@ p.count-text {
 /*------------------------------------------------------------------ Team -------------------------------------------------------------------*/
 
 .team-box {
-    padding: 70px 0px;
+    padding: 0px 0px;
 }
 
 .team_member_img img {
-    border: solid #ece9e2 20px;
+    /* border: solid #000000 0px;       ece9e2 */
     border-radius: 100%;
     width: 300px;
     height: 300px;
@@ -1274,7 +1275,7 @@ p.count-text {
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    background: rgba(235, 163, 29, 0.7);
+    background: rgba(255,81,1, 0.7);
     opacity: 0;
     transition: ease all 0.2s;
 }
@@ -1479,7 +1480,7 @@ p.count-text {
     margin-right: 15px;
     color: #fff;
     border-radius: 100%;
-    background: #ffa500;
+    background: #ff5101;
 }
 
 .dit-right h4 {
@@ -1522,7 +1523,7 @@ p.count-text {
 }
 
 .submit-button .btn-common {
-    background-color: #ffa500;
+    background-color: #ff5101;
     height: 45px;
     line-height: 45px;
     font-size: 14px;
@@ -1585,7 +1586,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-box .footer-company-name a:hover {
-    color: #ffa500;
+    color: #ff5101;
 }
 
 
@@ -1593,7 +1594,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .subscribe-box {
     padding: 70px 0px;
-    background: #ffa500;
+    background: #ff5101;
 }
 
 .subscribe-inner {
@@ -1651,7 +1652,7 @@ p {
 }
 
 .red_bg {
-    background: #ffa500;
+    background: #ff5101;
 }
 
 .white_fonts p,
@@ -1673,7 +1674,7 @@ p {
 
 .red_bg .about-main-info a {
     background: #fff;
-    color: #ffa500;
+    color: #ff5101;
 }
 
 .testimonial_img {
@@ -1699,7 +1700,7 @@ p {
 }
 
 #client_slider .carousel-indicators li.active {
-    background: #ffa500;
+    background: #ff5101;
 }
 
 .layout_padding {
@@ -1747,7 +1748,7 @@ p {
 p.section_count {
     font-size: 155px;
     margin: 0 45px 0 0;
-    color: #cccac5;
+    color: #ff5101;
     font-weight: 400;
     line-height: 70px;
 }
@@ -1789,7 +1790,7 @@ h3.small_heading {
 }
 
 .carousel a.carousel-control-prev {
-    background: #ffa500;
+    background: #ff5101;
     opacity: 1;
     width: 50px;
     height: 50px;
@@ -1799,7 +1800,7 @@ h3.small_heading {
 }
 
 .carousel a.carousel-control-next {
-    background: #ffa500;
+    background: #ff5101;
     opacity: 1;
     width: 50px;
     height: 50px;
@@ -1892,7 +1893,7 @@ ul.social_icon li {
 }
 
 .newsletter_form button {
-    background: #ffa500;
+    background: #ff5101;
     color: #fff;
     border: none;
     font-size: 14px;
